@@ -1,14 +1,81 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- HEADER-->
+  <header>
+    <div class="menu">
+      <img src="logo.png" alt="" class="logo1">
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Quienes somos</a></li>
+          <li><a href="#">Adopta</a></li>
+          <li><a href="#">Dona</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--DISEÑO LADO IZQUIERDO -->
+  <main>
+    <div class="contenedor-principal">
+      <div class="contenedor-izq">
+        <h2 class="tituloUno">Estás a un click de transformar la vida de un rescatado!</h2>
+        <img src="perritos1.jpg" alt="" class="perritos1">
+        <br>
+      <br>
+      </div>
+      <!-- DISEÑO LADO DERECHO-->
+      <div class="contenedor-der">
+        <h3 class="dona">Donación mensual: $10.000 CLP</h3>
+        <p class="parrafo1">Ingresa tu número de tarjeta de crédito para realizar tu donación</p>
+      <!-- FORmULARIO TARJETA DE CREDITO-->
+        <div class="contenedorTarjeta">
+          <p>PAGO TARJETA DE CREDITO</p>
+          <img src="cc icon.png" alt="" class="ccimagen">
+          <br>
+          <div class="primeraFila">
+            <div class="ntarjeta">Número de tarjeta </div>
+            <div class="input-field">
+              <input type="text" class="ntarjeta" id="numTarjeta" placeholder="0000-0000-0000-0000" autocomplete="off" maxlength="16" > 
+            </div>
+          </div>
+          <div class="segundaFila">
+            <div>Fecha de vencimiento  </div>
+            <div class="input-field" >
+              <input class="vencimiento" placeholder= "mm/aa" type="text">
+            </div>
+            <div class="">CVV </div>
+            <div class="input-field">
+              <input class="cvv" placeholder= "000" type="text">
+            </div>
+          </div>
+          <div class="terceraFila">
+            <div class="nombre">Nombre</div>
+            <div class="input-field">
+              <input placeholder= "Ingresa tu nombre aquí" type="text">
+            </div>
+          </div>
+          <br>
+      <!--BOTON-->
+          <input type="button" class= "validar" id="Validartj" value="VALIDAR TARJETA">
+        </div> 
+      </div> 
+<!-- FOOTER-->
+  <footer>
+    <div class="footer">
+      <img src="logofooter.PNG" alt="" class="logo2">
+    </div>
+  </footer>
+
+  <script src="index.js" type="module"></script>
+</body>
 </html>
+
