@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/** HEADER **/
+.menu {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+background: #F5AD15;
+width: 100%;
+clear: both;
+content: '';
+display: table;
+}
+
+.logo1 {
+    width: 110px;  
+    height: 82px;
+    float: left;
+    padding: 8px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+    position: relative;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: #ffff;
+    height: 5px;
+    top: 0;
+    position: absolute; 
+    transition: width 0.2s;  
+}
+
+nav ul li a:hover::before {
+width: 100%;
+}
+
+/** DISEÑO LADO IZQUIERDO **/
+.contenedor-principal {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.tituloUno{
+    color: #A7C7DC;
+    font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 67px;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 30px;
+}
+
+.perritos1 {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    }
+
+    /** DISEÑO LADO DERECHO**/
+.dona {
+    width: 496px;
+    height:78px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+    color: #62A907;
+    }
+    
+    .parrafo1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18x;
+    line-height: 100px;
+    }
+/** TARJETA  DE CREDITO **/
+.contenedorTarjeta{
+    width: 530px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color:white;
+    padding: 10px 10px 10px 10px;
+}
+
+.ccimagen{
+    width: 32%;
+    margin-left: 230px;
+    margin-top: -50px;
+    margin-right: 4px;
+}
+/** BOTON **/
+.validar {
+    background-color: #F9B015    ;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+input{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.vencimiento{
+    width: 50px; 
+    text-align: center; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cvv{
+    width: 50px;
+    text-align: center; 
+    margin-left: 10px;
+}
+
+.segundaFila{
+    display: inline-flex;
+}
+
+/** FOOTER **/
+footer {
+ background: #484848;
+width: 200%;
+clear: both;
+display: table;
+}
+
+.logo2 {
+    width: 60px;  
+    height: 50px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
