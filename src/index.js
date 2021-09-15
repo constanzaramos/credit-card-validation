@@ -9,7 +9,7 @@ botonValidar.addEventListener("click", () => {
   console.log(maskify);
 
 
-// ALERTAS
+  // ALERTAS
   if (isValid === true) {
     alert("La tarjeta de crédito es válida");
   } else {
