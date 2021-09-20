@@ -3,8 +3,6 @@
 ## Resumen:
  El proyecto tiene como objetivo crear un sistema de validación de tarjetas de crédito para la ONG (ficticia) Refugio huellas para que los usuarios puedan realizar donaciones a la fundación a través de su página web de manera segura. 
 
-
-
 ## Investigación UX
 
 ### Quienes son los usuarios y los objetivos en relación a este producto: 
@@ -15,11 +13,15 @@ Los usuarios de este sistema de pago en línea son hombres y mujeres de distinta
 
  ###Foto prototipo en papel 
 
+![](src/bosquejo1.jpeg)
 
 ## Feedback de prototipo con compañeras:
 El feedback fué realizado por Isabella y Mireya que trabajaron como dupla en el proyecto de card validation. Les gustó la temática del proyecto y el diseño sin embargo consideraron que podía ser un poco dificil rellenar los campos de tarjeta de crédito que en el diseño en papel simula una tarjeta de crédito real. Sugirieron realizar un formato más simple y legible ya que mi público objetivo es muy amplio, además de recordarme incorporar la función de no permitir continuar si los campos están vacíos ya que no lo tenía considerado. 
 Se toma en consideración el feedback y se modifica el diseño en el prototipo final realizado con figma 
 
-#### [Foto del prototipo final](file:///C:/Users/cramo/OneDrive/Escritorio/Laboratoria/Proyecto%20card%20validation/figma%20prototipo%20digtal.PNG)
+#### Foto del prototipo final
+
+![](src/prototipofigma.png)
+
 
  ## [Link al proyecto](http://127.0.0.1:5500/src/index.html)
